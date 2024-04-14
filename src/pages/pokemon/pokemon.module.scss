@@ -1,0 +1,29 @@
+.image {
+  & img {
+    width: 150px;
+  }
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  text-align: left;
+}
+
+.mainInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & div {
+    margin-bottom: 1rem;
+  }
+}
+
+.backButton {
+  position: absolute;
+  right: 32px;
+  top: 0;
+}
